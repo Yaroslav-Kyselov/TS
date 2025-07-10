@@ -8,7 +8,6 @@ function foobar49(users:users49):void {
         document.write(`<div>${user.id} ${user.name} ${user.age}</div>`);
     }
 }
-
 foobar49([
     {id: 1, name: 'kokos', age: 123},
     {id: 2, name: 'kokos', age: 123},
