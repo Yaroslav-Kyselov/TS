@@ -4,7 +4,7 @@
 // – додати цей блок в body.
 // – клонувати його повністю, та додати клон в body.
 
-const div=document.createElement('div');
+const div:HTMLDivElement=document.createElement('div');
 div.classList.add('wrap');
 div.classList.add('collapse');
 div.classList.add('alpha');
