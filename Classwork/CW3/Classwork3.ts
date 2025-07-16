@@ -53,5 +53,23 @@
 //         this.legs = legs;
 //     }
 // }
+// -----------------------------------------------// Generics-------------------
+// class UserGen<T1> {
+//     id: T1;
+//     name: string;
+//
+//     constructor(id: T1, name: string) {
+//         this.id = id;
+//         this.name = name;
+//     }
+// }
+// let userGen1 = new UserGen<number>(1, "John");
+// let userGen2 = new UserGen<string>('sgdfg', 'esfsgdg');
+//-------------------------------------// Generics з функціями-------------------
+
+let item = localStorage.getItem('x');
+if (item) {
+    let obj = JSON.parse(item);
+}
 
 
